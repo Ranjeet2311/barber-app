@@ -1,0 +1,122 @@
+// input[type="time"]::-webkit-inner-spin-button,
+// input[type="time"]::-webkit-calendar-picker-indicator {
+//   display: none;
+//   -webkit-appearance: none;
+// }
+
+.outer-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  // flex-direction: column;
+
+  .poster {
+    width: 900px;
+    border: 2px solid #1c2843;
+    padding: 16px;
+    position: absolute;
+    top: 9px;
+    left: -574px;
+  }
+
+  .form-outer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 141px;
+    left: 128px;
+    padding: 22px;
+    background-color: #1c2843;
+    width: 444px;
+
+    .form-heading {
+      // font: Squada One, size: 37px, weight: 500, letter spacing: 1.8px
+      font-size: 37px;
+      font-family: "Squada One", cursive;
+      font-weight: 500;
+      letter-spacing: 1.8px;
+      background-color: #1c2843;
+      color: white;
+      margin-top: 12px;
+    }
+
+    .form-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #1c2843;
+
+      .form-group-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c2843;
+        margin-top: 26px;
+
+        input {
+          // - font: Roboto Slab, size: 14px, weight: 500, letter-spacing: 0.6px
+          font-family: "Roboto Slab", serif;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.6px;
+          padding: 10px;
+          margin: 10px 2px;
+          width: 46%;
+          border: none;
+          outline: none;
+        }
+      }
+      .form-group-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1c2843;
+        margin-top: 20px;
+
+        input {
+          // - font: Roboto Slab, size: 14px, weight: 500, letter-spacing: 0.6px
+          font-family: "Roboto Slab", serif;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.6px;
+          padding: 8px;
+          margin: 10px 3px;
+          width: 46%;
+          border: none;
+          outline: none;
+        }
+      }
+
+      .price-input {
+        font-family: "Roboto Slab", serif;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        padding: 8px;
+        margin: 10px 3px;
+        width: 94%;
+        border: none;
+        outline: none;
+      }
+
+      .btn {
+        // - font: Roboto Slab, size: 18px, weight: 400, letter-spacing: 2px
+
+        background-color: #fe9565;
+        font-family: "Roboto Slab", serif;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        color: white;
+        border: none;
+        padding: 14px 0;
+        border-radius: 30px;
+        margin: 20px 0;
+        width: 94%;
+      }
+    }
+  }
+}

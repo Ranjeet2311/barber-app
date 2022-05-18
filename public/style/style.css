@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Squada+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #fcf4ea;
+}
+
+.page-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 100vw;
+}
+
+.outer-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.outer-wrap .poster {
+  width: 900px;
+  border: 2px solid #1c2843;
+  padding: 16px;
+  position: absolute;
+  top: 9px;
+  left: -574px;
+}
+
+.outer-wrap .form-outer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 141px;
+  left: 128px;
+  padding: 22px;
+  background-color: #1c2843;
+  width: 444px;
+}
+
+.outer-wrap .form-outer-wrap .form-heading {
+  font-size: 37px;
+  font-family: "Squada One", cursive;
+  font-weight: 500;
+  letter-spacing: 1.8px;
+  background-color: #1c2843;
+  color: white;
+  margin-top: 12px;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #1c2843;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .form-group-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c2843;
+  margin-top: 26px;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .form-group-1 input {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  padding: 10px;
+  margin: 10px 2px;
+  width: 46%;
+  border: none;
+  outline: none;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .form-group-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1c2843;
+  margin-top: 20px;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .form-group-2 input {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  padding: 8px;
+  margin: 10px 3px;
+  width: 46%;
+  border: none;
+  outline: none;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .price-input {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  padding: 8px;
+  margin: 10px 3px;
+  width: 94%;
+  border: none;
+  outline: none;
+}
+
+.outer-wrap .form-outer-wrap .form-wrap .btn {
+  background-color: #fe9565;
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+  border: none;
+  padding: 14px 0;
+  border-radius: 30px;
+  margin: 20px 0;
+  width: 94%;
+}
+
+.heading-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading-wrap h1 {
+  font-family: "Squada One", cursive;
+  font-size: 58px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #2c2721;
+}
+
+.heading-wrap .para-wrap {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.heading-wrap .para-wrap .p1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #2c2721;
+  margin-top: 2px;
+}
+
+.heading-wrap .para-wrap .p2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #2c2721;
+  margin-top: 8px;
+}
+/*# sourceMappingURL=style.css.map */
